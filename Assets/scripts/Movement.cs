@@ -19,6 +19,7 @@ public float jumpForce;
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("moose");
         rb = GetComponent<Rigidbody2D>();
     }
 

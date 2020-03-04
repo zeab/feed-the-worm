@@ -6,7 +6,6 @@ public class BlockSpawn : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D c)
     {
-        Debug.Log("11");
         // The position check may need to be better.
         if (c.collider.tag == "Player"){
             Debug.Log("hit");
